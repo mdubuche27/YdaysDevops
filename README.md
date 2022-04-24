@@ -69,3 +69,4 @@ Fonctionnalités ligne par ligne
 3. Permet de verfier que les pods a bien été créé: `kubectl get pods`
 4. Exposer le deployment: `kubectl expose deployment nodejs-deployment --type="LoadBalancer"`
 5. Permet de verfier que le service a bien été créé: `kubectl get svc`
+5. Permet d'obtenir les info sur le cluster': `kubectl cluster-info`
