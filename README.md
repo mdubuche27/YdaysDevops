@@ -74,8 +74,7 @@ Explication de ca conception :
   2.Le modèle est utilisé pour définir comment faire tourner le nouveau pod et les spécifications du pod.
     1.Métadonnées du pod nouvellement créé avec ce déploiement
       1.Nous avons une étiquette - la clé est l'application et la valeur est nodejs
-  3.Les étiquettes des dosettes fraîchement créées
-    1.Spec définit la spécification de la façon dont les conteneurs seront créés
+    2.Spec définit la spécification de la façon dont les conteneurs seront créés
       1.Spécifications des conteneurs
         1.Nom du conteneur
         2.L'image qui peut être utilisée par le conteneur
