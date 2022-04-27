@@ -24,7 +24,8 @@ npm start
 1. Installer Docker
 2. Lancer un cmd.
 3. Build l'image Docker : `docker build -t hello-world .`
-4. Lancer une image dans un container : `docker run -d -p 4001:4000 hello-world`
+  - l'argument `-t` est pour definir le titre de l'image.
+5. Lancer une image dans un container : `docker run -d -p 4001:4000 hello-world`
   - l'argument `-d` est pour lancer le container en arriere plan (daemon mode).
   - l'argument `-p` permet de publier le container sur le port specifier.
 
