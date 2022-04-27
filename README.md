@@ -67,7 +67,7 @@ Explication de ca conception :
 3.Les métadonnées sont utilisées pour organiser l'objet.
   1.Le nom de notre déploiement est nodejs-deployment
 4.Spec est utilisé pour définir la spécification de l'objet.
-  1.Combien de pods vous souhaitez déployer dans le cluster sous ce déploiement. Dans notre cas, nous voulons déployer deux pods exécutant des conteneurs à partir de notre image.
+  1.Combien de pods vous souhaitez déployer dans le cluster sous ce déploiement.
   2.Identifier les pods vers lesquels acheminer le trafic
     1.indique à quels pods le déploiement s'appliquera.
       1.Nom de notre pod dans notre cas nodejs
@@ -79,7 +79,7 @@ Explication de ca conception :
         1.Nom du conteneur
         2.L'image qui peut être utilisée par le conteneur
         3.Quelle option de port utiliser
-          1.Nous utilisons containerPort 3000
+          1.Nous utilisons containerPort 4001
 ```
 
 ### Créer et exposez un deploymlent 
