@@ -65,21 +65,21 @@ Explication de ca conception :
 1.Décrivez la version de l'API que vous utilisez pour créer cet objet, c'est-à-dire le déploiement - nous utilisons apps/v1
 2.Quel type d'objet vous créez. Dans notre cas, c'est Déploiement.
 3.Les métadonnées sont utilisées pour organiser l'objet.
-  1.Le nom de notre déploiement est nodejs-deployment
-4.Spec est utilisé pour définir la spécification de l'objet.
-  1.Combien de pods vous souhaitez déployer dans le cluster sous ce déploiement.
-  2.Identifier les pods vers lesquels acheminer le trafic
-    1.indique à quels pods le déploiement s'appliquera.
-      1.Nom de notre pod dans notre cas nodejs
-  2.Le modèle est utilisé pour définir comment faire tourner le nouveau pod et les spécifications du pod.
-    1.Métadonnées du pod nouvellement créé avec ce déploiement
-      1.Nous avons une étiquette - la clé est l'application et la valeur est nodejs
-    2.Spec définit la spécification de la façon dont les conteneurs seront créés
-      1.Spécifications des conteneurs
-        1.Nom du conteneur
-        2.L'image qui peut être utilisée par le conteneur
-        3.Quelle option de port utiliser
-          1.Nous utilisons containerPort 4001
+  4.Le nom de notre déploiement est nodejs-deployment
+5.Spec est utilisé pour définir la spécification de l'objet.
+  6.Combien de pods vous souhaitez déployer dans le cluster sous ce déploiement.
+  7.Identifier les pods vers lesquels acheminer le trafic
+    8.indique à quels pods le déploiement s'appliquera.
+      9.Nom de notre pod dans notre cas nodejs
+  10.Le modèle est utilisé pour définir comment faire tourner le nouveau pod et les spécifications du pod.
+    11.Métadonnées du pod nouvellement créé avec ce déploiement
+      12.Nous avons une étiquette - la clé est l'application et la valeur est nodejs
+    13.Spec définit la spécification de la façon dont les conteneurs seront créés
+      14.Spécifications des conteneurs
+        15.Nom du conteneur
+        16.L'image qui peut être utilisée par le conteneur
+        17.Quelle option de port utiliser
+          18.Nous utilisons containerPort 4001
 ```
 
 ### Créer et exposez un deploymlent 
